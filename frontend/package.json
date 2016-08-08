@@ -1,0 +1,16 @@
+{
+  "name": "react-tutorial-follow",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React Tutorial 샘플(참조:https://github.com/reactjs/react-tutorial)",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
+  },
+  "devDependencies": {},
+  "author": "chanwook",
+  "engines": {
+    "node": "0.12.x"
+  }
+}
