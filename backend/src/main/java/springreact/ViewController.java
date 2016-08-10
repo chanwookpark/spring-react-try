@@ -17,7 +17,7 @@ public class ViewController {
 
     @RequestMapping("/index")
     public ModelAndView index() {
-        ModelAndView mav = new ModelAndView("index");
+        ModelAndView mav = new ModelAndView("index-serverside");
         final String staticHost = env.getProperty("static.host");
         mav.addObject("staticHost", staticHost);
         return mav;
